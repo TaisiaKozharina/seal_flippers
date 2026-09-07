@@ -7,16 +7,16 @@ Statuses:\
 -----------------------------------------------------
 ### Week 36
 
-| Name | Task | Status |
-| ----------- | ----------- | ----------- |
-| Alaric (Jianwei) | Task 1: Lorem Ipsum | :white_check_mark: |
-| Alaric (Jianwei) | Task 2: Lorem Ipsum | :red_circle: |
-| Alaric (Jianwei) | Task 3: Lorem Ipsum | :black_square_button: |
-| Deborah | Task 1: Lorem Ipsum | :white_check_mark: |
-| Paul | Task 1: Lorem Ipsum | :white_check_mark: |
-| Taisija | Task 1: Lorem Ipsum | :white_check_mark: |
-| Zeyao Yan | Task 1: Lorem Ipsum | :white_check_mark: |
-| Zihao Yang  | Task 1: Lorem Ipsum | :white_check_mark: |
+| Name | Task | Hours Spent | Status |
+| ----------- | ----------- | ----------- | ----------- |
+| Alaric (Jianwei) | Task 1: Lorem Ipsum | 1.5 | :white_check_mark: |
+| Alaric (Jianwei) | Task 2: Lorem Ipsum | 1.5 | :red_circle: |
+| Alaric (Jianwei) | Task 3: Lorem Ipsum | 1.5 | :black_square_button: |
+| Deborah | Task 1: Lorem Ipsum | 1.5 | :white_check_mark: |
+| Paul | Task 1: Lorem Ipsum | 1.5 | :white_check_mark: |
+| Taisija | Task 1: Lorem Ipsum | 1.5 | :white_check_mark: |
+| Zeyao Yan | Task 1: Lorem Ipsum | 1.5 | :white_check_mark: |
+| Zihao Yang  | Task 1: Lorem Ipsum | 1.5 | :white_check_mark: |
 
 **Ongoing Questions**:
 * question 1
@@ -28,9 +28,9 @@ Statuses:\
 -----------------------------------------------------
 ### (Template) Week XX
 
-| Name | Task | Status |
-| ----------- | ----------- | ----------- |
-| John Doe | Task 1: Lorem Ipsum | :white_check_mark: |
+| Name | Task | Hours Spent | Status |
+| ----------- | ----------- | ----------- | ----------- |
+| John Doe | Task 1: Lorem Ipsum | 1 | :white_check_mark: |
 
 Ongoing Questions:
 * question 1

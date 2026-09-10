@@ -16,7 +16,7 @@ Statuses:\
 | Deborah |Contributed to and finalised the list of requirements, clarification questions| 3 | :white_check_mark: |
 | Deborah |Wrote up draft requirement specification and added it to GitHub| 3.5 | :white_check_mark: |
 | Paul | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |
-| Paul | Reaching out to NRM IT department for deployment details| 1 | :white_check_mark: |
+| Paul | Reaching out to NRM IT department for deployment details; ended up not reaching out but exploring alternative solutions| 2 | :white_check_mark: |
 | Paul | Started project management structure in github| 2 | :white_check_mark: |
 | Paul | Gathering this week's work/hours of all team members and preparing weekly update | 1.5 | :white_check_mark: |
 | Taisija | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |

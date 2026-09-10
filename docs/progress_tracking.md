@@ -13,7 +13,7 @@ Statuses:\
 | Alaric (Jianwei) | Task 2: Lorem Ipsum | 1.5 | :red_circle: |
 | Alaric (Jianwei) | Task 3: Lorem Ipsum | 1.5 | :black_square_button: |
 | Deborah | Reviewed and updated meeting notes| 3 | :white_check_mark: |
-| Deborah |Contributed to and finalized the list of requirement-clarification questions| 3 | :white_check_mark: |
+| Deborah |Contributed to and finalized the list of requirement,clarification questions| 3 | :white_check_mark: |
 | Deborah |Wrote up draft requirement specification and added it to GitHub| 3 | :white_check_mark: |
 | Paul | Task 1: Lorem Ipsum | 1.5 | :white_check_mark: |
 | Taisija | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |

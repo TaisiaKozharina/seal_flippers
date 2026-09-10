@@ -13,7 +13,7 @@ Statuses:\
 | Alaric (Jianwei) | Reviewed meeting notes and specification | 2 | :white_check_mark: |
 | Alaric (Jianwei) | Wrote up risk risk Assessment and draft Strategies, added it to draft_specification | 3 | :white_check_mark: |
 | Zeyao Yan | |  |  |
-| Zihao Yang  |  |  |  |
+| Zihao Yang  | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: 
 | Deborah | Reviewed and updated meeting notes| 3 | :white_check_mark: |
 | Deborah |Contributed to and finalised the list of requirements, clarification questions| 3 | :white_check_mark: |
 | Deborah |Wrote up draft requirement specification and added it to GitHub| 3.5 | :white_check_mark: |

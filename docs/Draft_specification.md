@@ -27,3 +27,12 @@
 *Out of scope:*
 - Calculating the seal's actual age (NRM does this separately using our measurements)
 - Other animal datasets that are private
+
+*Risk Assessment & Draft Strategies*
+
+* Data Availability (No Labels): The dataset lacks ground-truth image masks, bottlenecking supervised learning.
+  * *Draft Strategy:* (1) Test CV-based preprocessing (e.g., morphological operations) to generate pseudo-masks. (2) Manually annotate a small subset (e.g., via iPad) and validate with NRM experts to establish a baseline.
+* Frontend Complexity (Interactive UI): Building a custom "Smart MS Paint" UI for manual boundary corrections from scratch is highly time-consuming.
+  * *Draft Strategy:* Integrate existing touch-optimized web canvas libraries (e.g., Fabric.js) using HTML5 Pointer Events APIs to leverage native stylus inputs (like Apple Pencil).
+* Data Integration (No Copy-Paste Rule): Direct API integration with museum servers may face strict IT security blocks.
+  * *Draft Strategy:* Prepare a dual-path approach: Path A (Programmatic API or file ingestion to strictly avoid copy-paste) and Path B (A "Smart Clipboard" fallback that formats data with tab-separations `\t` for one-click error-free pasting, pending client approval).

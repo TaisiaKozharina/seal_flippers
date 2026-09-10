@@ -9,7 +9,9 @@ Statuses:\
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) | | |  |
+| Alaric (Jianwei) | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |
+| Alaric (Jianwei) | Reviewed meeting notes and specification | 2 | :white_check_mark: |
+| Alaric (Jianwei) | Wrote up risk risk Assessment and draft Strategies, added it to draft_specification | 3 | :white_check_mark: |
 | Zeyao Yan | |  |  |
 | Zihao Yang  |  |  |  |
 | Deborah | Reviewed and updated meeting notes| 3 | :white_check_mark: |

@@ -11,17 +11,16 @@ Meeting Notes from 07.09.2026 (Welcome Meeting)
 * Three seal species distribution in the dataset: >30 grey, >20 harbour, few ringed seal.
 * Anatomically species are similar, size might be different.
 * Dataset is not uniform. Samples vary in intensity, scale, resolution, number of samples per image.
-*Phalanges and metacarpal 1 and 2 are needed — most visible, best predictor of age. Other bones can be deprioritized.
-*Area is the preferred metric over length/diameter, since length/diameter vary too much between individuals to be reliable.
-*Clavicular bone presence is also checked as part of the manual measurement process.
-
-*Clavicular bone presence is also checked as part of the manual process.
+* Phalanges and metacarpal 1 and 2 are needed — most visible, best predictor of age. Other bones can be deprioritized. BUT, their excel showed measurements of all bones and summing up of all bones
+* Area is the preferred metric over length/diameter, since length/diameter vary too much between individuals to be reliable.
+* Clavicular bone presence is also checked as part of the manual measurement process.
+  
 *Accuracy & Scale*:
 * Coin is used for scale, but it should be made possible for the scale to be defined by user.
 * 3 decimals are just format, not precision
 * In manual measurements precision of up to square centimeter was OK (due to hard cases mostly).
 * Scale is square millimeters
-* Regarding "rapid" and "quick": no exact threshold, just not several minutes. As fast as possible but in general should be reasonably faster than a human performing same task.
+* Regarding "rapid" and "quick": no exact threshold, just not several minutes. As fast as possible but in general should be reasonably faster than a human performing same task. (no overnight computing)
 
 *Overlaps & Fusion*:
 * Fusion occurs on the image as partially or completely 3 categories: fused, not fused, partially.

@@ -12,7 +12,9 @@ Statuses:\
 | Alaric (Jianwei) | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |
 | Alaric (Jianwei) | Reviewed meeting notes and specification | 2 | :white_check_mark: |
 | Alaric (Jianwei) | Wrote up risk risk Assessment and draft Strategies, added it to draft_specification | 3 | :white_check_mark: |
-| Zeyao Yan | |  |  |
+| Zeyao Yan | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |
+| Zeyao Yan | Reviewed meeting notes and specification | 2 | :white_check_mark: |
+| Zeyao Yan | Search for some existing solutions (models) | 3 | :white_check_mark: |
 | Zihao Yang  | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: 
 | Zihao Yang | Reviewed meeting notes and specification | 2 | :white_check_mark: |
 | Zihao Yang | Wrote up risk risk Assessment and draft Strategies, added it to draft_specification | 3 | :white_check_mark: |

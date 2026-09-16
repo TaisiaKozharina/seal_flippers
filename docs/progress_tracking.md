@@ -2,10 +2,20 @@ Statuses:\
 :white_check_mark: - Completed\
 :red_circle: - Blocked / not possible to complete\
 :black_square_button: - Not started
+-----------------------------------------------------
+### Week 38
 
+| Name | Task | Hours Spent | Status |
+| ----------- | ----------- | ----------- | ----------- |
+| Alaric (Jianwei) | | | |
+| Zeyao Yan  | | | |
+| Zihao Yang  | | | |
+| Deborah | | | |
+| Paul | | | |
+| Taisija | | | |
 
 -----------------------------------------------------
-### Week 36
+### Week 37
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |

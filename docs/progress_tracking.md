@@ -11,7 +11,9 @@ Statuses:\
 | Zeyao Yan  | | | |
 | Zihao Yang  | | | |
 | Deborah | | | |
-| Paul | | | |
+| Paul | Looking for existing projects and datasets for transfer learning| 3 |:white_check_mark: |
+| Paul | Creating demo for new local hosted correction | 4| :white_check_mark: |
+| Paul | Project management and weekly update| 1.5|:white_check_mark:  |
 | Taisija | | | |
 
 -----------------------------------------------------

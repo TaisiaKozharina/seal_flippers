@@ -8,7 +8,7 @@ Statuses:\
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
 | Alaric (Jianwei) | | | |
-| Zeyao Yan | | | |
+| Zeyao Yan |Finding and researching some existing labeling solutions | 3.5 | :white_check_mark: |
 | Zihao Yang | | | |
 | Deborah |Analyzed  dataset folders sent by NRM and documented image counts, naming inconsistencies, and quality issues per folder, published to github | 7.5 | :white_check_mark: |
 | Deborah | Rewrote the requirement specification (user requirements, functional/non-functional requirements, priority table) | 3.5 | :white_check_mark: |

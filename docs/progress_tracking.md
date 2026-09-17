@@ -12,7 +12,7 @@ Statuses:\
 | Zihao Yang | | | |
 | Deborah |Analyzed  dataset folders sent by NRM and documented image counts, naming inconsistencies, and quality issues per folder, published to github | 9 | :white_check_mark: |
 | Deborah | Rewrote the requirement specification (user requirements, functional/non-functional requirements, priority table) | 5 | :white_check_mark: |
-| Deborah | Researched candidate segmentation methods (thresholding, transfer learning, MedSAM) for the bone segmentation task | 3 | :white_check_mark: |
+| Deborah | Researched candidate segmentation methods (thresholding, transfer learning, MedSAM) | 3 | :white_check_mark: |
 | Paul | Looking for existing projects and datasets for transfer learning | 3 | :white_check_mark: |
 | Paul | Creating demo for new local hosted correction | 4 | :white_check_mark: |
 | Paul | Project management and weekly update | 1.5 | :white_check_mark: |

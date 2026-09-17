@@ -8,28 +8,28 @@ NRM requires a system capable of processing pectoral flipper radiographs to auto
 
 ### Summary table
 
-| ID | Requirement | Priority | Notes |
-|----|-------------|----------|-------|
-| FR1 | Identify metacarpal, phalange M1, phalange M2 | Must | — |
-| FR2 | Exclude radius, ulna, claws, navicular bones, other non-target structures | Must | — |
-| FR3 | Detect overlapping bones | Must | — |
-| FR4 | Correctly split area on overlap (no double counting) | Must | — |
-| FR5 | Auto-propose a measurement before review | Must | — |
-| FR6 | Allow manual correction of the boundary | Must | — |
-| FR7 | Detect fusion / non-fusion, record as its own field | Should | — |
-| FR8 | Exclude the gap in an unfused bone from area | Should | — |
-| FR9 | Accept and process a batch of images | Should | — |
-| FR10 | Step through processed images one at a time | Should | — |
-| FR11 | Report area in mm to 3 decimals using the image's own scale | Must | — |
-| FR12 | Export approved measurements to Excel | Must | — |
-| FR13 | Map values to predefined Excel columns | Should | — |
-| FR14 | Add new data without overwriting existing Excel data | Desirable | — |
+| ID | Requirement | Priority | 
+|----|-------------|----------|
+| FR1 | Identify metacarpal, phalange M1, phalange M2 | Must |
+| FR2 | Exclude radius, ulna, claws, navicular bones, other non-target structures | Must |
+| FR3 | Detect overlapping bones | Must | 
+| FR4 | Correctly split area on overlap (no double counting) | Must |
+| FR5 | Auto-propose a measurement before review | Must |
+| FR6 | Allow manual correction of the boundary | Must |
+| FR7 | Detect fusion / non-fusion, record as its own field | Should |
+| FR8 | Exclude the gap in an unfused bone from area | Should | 
+| FR9 | Accept and process a batch of images | Should |
+| FR10 | Step through processed images one at a time | Should | 
+| FR11 | Report area in mm to 3 decimals using the image's own scale | Must | 
+| FR12 | Export approved measurements to Excel | Must |
+| FR13 | Map values to predefined Excel columns | Should |
+| FR14 | Add new data without overwriting existing Excel data | Desirable | 
 | NFR1 | Accuracy vs. manual measurement | Must | Target value TBD, blocked on NRM providing ground truth |
 | NFR2 | Speed per image | Should | Target value TBD, blocked on hardware/GPU decision |
 | NFR3 | Robustness on bad input (no scale marker, rotated image) | Should | Target: flag it, don't guess |
-| NFR4 | Reviewer can act on one image in a small, fixed number of steps | Should | — |
+| NFR4 | Reviewer can act on one image in a small, fixed number of steps | Should |
 | NFR5 | Runs on whatever stack the team locks in, no special hardware for NRM | Must | Depends on Technical Components decision (still TBD) |
-| NFR6 | Export never corrupts or drops existing Excel rows/columns | Desirable | — |
+| NFR6 | Export never corrupts or drops existing Excel rows/columns | Desirable | 
 
 ### Functional requirements
 

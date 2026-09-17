@@ -31,7 +31,7 @@ NRM requires a system capable of processing pectoral flipper radiographs to auto
 | NFR5 | Runs on whatever stack the team locks in (Technical Components, still TBD) | — |
 | NFR6 | Export never corrupts or drops existing Excel rows/columns | — |
 
-### Functional requirements, written out
+### Functional requirements
 
 **FR1 (Must).** The system shall identify and segment the metacarpal, phalange M1, and phalange M2 in a given flipper radiograph.
 

@@ -26,7 +26,7 @@ NRM requires a system capable of processing pectoral flipper radiographs to auto
 | FR14 | Add new data without overwriting existing Excel data | Desirable |
 | NFR1 | Accuracy vs. manual measurement | TBD — blocked on ground truth |
 | NFR2 | Speed per image | TBD — blocked on hardware/GPU decision |
-| NFR3 | Robustness on bad input (no scale marker, rotated image) | Target: flag, don't guess |
+| NFR3 | Robustness on bad input (no scale marker, rotated image) | Target: should flag it |
 | NFR4 | Reviewer can act on one image in a small, fixed number of steps | — |
 | NFR5 | Runs on whatever stack the team locks in (Technical Components, still TBD) | — |
 | NFR6 | Export never corrupts or drops existing Excel rows/columns | — |

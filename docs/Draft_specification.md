@@ -79,4 +79,4 @@ NRM requires a system capable of processing pectoral flipper radiographs to auto
 
 - NFR1 and NFR2 have their priority set, but still need real target numbers — depends on what ground truth/labels NRM sends back and what hardware/GPU the team decides to use.
 - Needs the approval + corrections pass with Linnea/Elsa per the team's own timeline (item 1d in Flippers.pdf).
-- NFR5 is marked Must, but can't really be verified until Section 4 (Technical Components) is locked in — flagged for the team, not something to fix in this doc.
+- NFR5 is marked Must, but can't really be verified until Section 4 (Technical Components) is locked in 

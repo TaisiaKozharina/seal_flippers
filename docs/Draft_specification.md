@@ -63,14 +63,20 @@ NRM requires a system capable of processing pectoral flipper radiographs to auto
 
 ### Non-functional requirements, written out
 
-**NFR1 — Accuracy.** Measured bone area shall be within [TBD, needs a target once we have ground truth to compare against] of a manual measurement on the same image. Owner: Validation, blocked on NRM providing labeled/verified images.
+**NFR1 — Accuracy.** Measured bone area shall be within [TBD, needs a target once we have ground truth to compare against] of a manual measurement on the same image. Owner: Validation, blocked on NRM providing labeled/verified images. 
+
 **NFR2 — Speed.** The system shall produce a proposed measurement for one radiograph within [TBD] seconds of upload, so batch review stays practical for NRM's ~80+ image set.
+
 **NFR3 — Robustness.** The system shall not fail silently on irregular input, for example an image with no visible scale marker (we already found one, B202600073_KS) or a rotated/uncropped image. It should flag these for manual attention instead of producing a false measurement.
+
 **NFR4 — Usability.** A reviewer shall be able to accept, correct, or reject one image's measurement in a small, fixed number of actions, so reviewing a full batch doesn't become the bottleneck.
+
 **NFR5 — Portability.** The system shall run on whatever environment the team locks in under Technical Components (still TBD) without requiring NRM to install specialized hardware or software beyond that.
+
 **NFR6 — Data integrity.** The export step (FR12–FR14) shall never corrupt or drop existing rows/columns in NRM's Excel file.
 
 ### Open items 
 
 - NFR1 and NFR2 need real numbers — depends on what ground truth/labels NRM sends back and what hardware/GPU the team decides to use.
+  
 - Needs the approval + corrections pass with Linnea/Elsa per the team's own timeline (item 1d in Flippers.pdf).

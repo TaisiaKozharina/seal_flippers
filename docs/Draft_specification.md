@@ -1,38 +1,63 @@
-*Requirement Specification — Seal Flipper Age Tool*
+# User Requirement Specification
 
-*Problem:*
-- NRM currently measures flipper bones by hand using ImageJ. It's slow and ImageJ doesn't handle overlapping bones well. We want to build a tool that speeds this up and handles overlap properly.
+## 2.1 User Requirements
 
-*Scope:*
-- Bones needed: phalanges, metacarpal 1, metacarpal 2
-- Also check for clavicular bone presence
-- Other bones not required
+NRM requires a system capable of processing pectoral flipper radiographs to automatically identify and segment three clinically relevant bones (the metacarpal, phalange M1, and phalange M2), and quantify each bone's cross-sectional area with sub-millimeter precision, calibrated against the scale reference present in each individual image. The system must support a human-in-the-loop review and correction workflow, allowing a qualified operator to verify and adjust generated measurements prior to approval, before the finalized data is exported and integrated into NRM's existing Excel-based record-keeping system. Age estimation itself remains outside the system's scope, it is performed independently by NRM using the area and fusion status values this tool outputs.
 
-*Functional requirements:*
-- Identify relevant bones in the radiograph
-- Measure bone area (not length/diameter - too much variation between individuals)
-- Detect fusion status: fused, not fused, partially fused - and localize it, not just flag it
-- Handle overlapping bones without messing up the measurement
-- Report area in mm², 3 decimal format (this is a formatting requirement, not literal micron-level precision)
-- Let the user click a bone and manually correct its boundary if needed
-- Export approved measurements to Excel - either connect to their online sheet or output a CSV-like file, no copy-paste
-- Support uploading and processing multiple images at once
+## 2.2 System Requirements
 
-*Non-functional requirements:*
-- Should be faster than doing it by hand, not taking several minutes per image
-- Needs to work on tablet and web, ideally usable on museum servers
-- Should support switching devices mid-task (e.g. start on PC, continue on tablet)
-- Dataset is not uniform - brightness, scale and resolution vary across the ~85 samples (~100 instances)
+### Summary table
 
-*Out of scope:*
-- Calculating the seal's actual age (NRM does this separately using our measurements)
-- Other animal datasets that are private
+| ID | Requirement | Priority |
+|----|-------------|----------|
+| FR1 | Identify metacarpal, phalange M1, phalange M2 | Must |
+| FR2 | Exclude radius, ulna, claws, navicular bones, other non-target structures | Must |
+| FR3 | Detect overlapping bones | Must |
+| FR4 | Correctly split area on overlap (no double counting) | Must |
+| FR5 | Auto-propose a measurement before review | Must |
+| FR6 | Allow manual correction of the boundary | Must |
+| FR7 | Detect fusion / non-fusion, record as its own field | Should |
+| FR8 | Exclude the gap in an unfused bone from area | Should |
+| FR9 | Accept and process a batch of images | Should |
+| FR10 | Step through processed images one at a time | Should |
+| FR11 | Report area in mm to 3 decimals using the image's own scale | Must |
+| FR12 | Export approved measurements to Excel | Must |
+| FR13 | Map values to predefined Excel columns | Should |
+| FR14 | Add new data without overwriting existing Excel data | Desirable |
+| NFR1 | Accuracy vs. manual measurement | TBD — blocked on ground truth |
+| NFR2 | Speed per image | TBD — blocked on hardware/GPU decision |
+| NFR3 | Robustness on bad input (no scale marker, rotated image) | Target: flag, don't guess |
+| NFR4 | Reviewer can act on one image in a small, fixed number of steps | — |
+| NFR5 | Runs on whatever stack the team locks in (Technical Components, still TBD) | — |
+| NFR6 | Export never corrupts or drops existing Excel rows/columns | — |
 
-*Risk Assessment & Draft Strategies*
+### Functional requirements, written out
 
-* Data Availability (No Labels): The dataset lacks ground-truth image masks, bottlenecking supervised learning.
-  * *Draft Strategy:* (1) Test CV-based preprocessing (e.g., morphological operations) to generate pseudo-masks. (2) Manually annotate a small subset (e.g., via iPad) and validate with NRM experts to establish a baseline.
-* Frontend Complexity (Interactive UI): Building a custom "Smart MS Paint" UI for manual boundary corrections from scratch is highly time-consuming.
-  * *Draft Strategy:* Integrate existing touch-optimized web canvas libraries (e.g., Fabric.js) using HTML5 Pointer Events APIs to leverage native stylus inputs (like Apple Pencil).
-* Data Integration (No Copy-Paste Rule): Direct API integration with museum servers may face strict IT security blocks.
-  * *Draft Strategy:* Prepare a dual-path approach: Path A (Programmatic API or file ingestion to strictly avoid copy-paste) and Path B (A "Smart Clipboard" fallback that formats data with tab-separations `\t` for one-click error-free pasting, pending client approval).
+**FR1 (Must).** The system shall identify and segment the metacarpal, phalange M1, and phalange M2 in a given flipper radiograph.
+**FR2 (Must).** The system shall exclude radius, ulna, claws, navicular bones, and other non-target structures from the segmentation output.
+**FR3 (Must).** The system shall detect when two or more relevant bones overlap in the image.
+**FR4 (Must).** When bones overlap, the system shall assign each pixel/region to the correct bone and shall not count overlapping regions twice or attribute them to the wrong bone.
+**FR5 (Must).** The system shall automatically generate a proposed area measurement for each identified bone before any human review.
+**FR6 (Must).** The system shall let the reviewer manually adjust the proposed bone boundary, and shall recompute the area from the corrected boundary.
+**FR7 (Should).** The system shall classify each relevant bone as fused or not fused, and shall record fusion status as a separate output field from the area measurement.
+**FR8 (Should).** When a bone is not fused, the system shall exclude the gap between the unfused parts from the area calculation.
+**FR9 (Should).** The system shall accept a batch of radiographs in one upload and process them sequentially without requiring re-upload per image.
+**FR10 (Should).** The system shall let the reviewer step through processed images one at a time, in sequence, without leaving the review screen.
+**FR11 (Must).** The system shall report each bone's area in mm, to 3 decimal places, using the scale reference present in that specific image (not a fixed pixel-to-mm ratio).
+**FR12 (Must).** The system shall export approved measurements to an Excel-compatible file.
+**FR13 (Should).** The system shall map each exported value to the correct predefined column in NRM's existing Excel template.
+**FR14 (Desirable).** The system shall add new measurements to an existing NRM Excel file without deleting or overwriting the data already in it.
+
+### Non-functional requirements, written out
+
+**NFR1 — Accuracy.** Measured bone area shall be within [TBD, needs a target once we have ground truth to compare against] of a manual measurement on the same image. Owner: Validation, blocked on NRM providing labeled/verified images.
+**NFR2 — Speed.** The system shall produce a proposed measurement for one radiograph within [TBD] seconds of upload, so batch review stays practical for NRM's ~80+ image set.
+**NFR3 — Robustness.** The system shall not fail silently on irregular input, for example an image with no visible scale marker (we already found one, B202600073_KS) or a rotated/uncropped image. It should flag these for manual attention instead of producing a false measurement.
+**NFR4 — Usability.** A reviewer shall be able to accept, correct, or reject one image's measurement in a small, fixed number of actions, so reviewing a full batch doesn't become the bottleneck.
+**NFR5 — Portability.** The system shall run on whatever environment the team locks in under Technical Components (still TBD) without requiring NRM to install specialized hardware or software beyond that.
+**NFR6 — Data integrity.** The export step (FR12–FR14) shall never corrupt or drop existing rows/columns in NRM's Excel file.
+
+### Open items 
+
+- NFR1 and NFR2 need real numbers — depends on what ground truth/labels NRM sends back and what hardware/GPU the team decides to use.
+- Needs the approval + corrections pass with Linnea/Elsa per the team's own timeline (item 1d in Flippers.pdf).

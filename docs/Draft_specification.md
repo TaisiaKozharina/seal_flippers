@@ -34,18 +34,31 @@ NRM requires a system capable of processing pectoral flipper radiographs to auto
 ### Functional requirements, written out
 
 **FR1 (Must).** The system shall identify and segment the metacarpal, phalange M1, and phalange M2 in a given flipper radiograph.
+
 **FR2 (Must).** The system shall exclude radius, ulna, claws, navicular bones, and other non-target structures from the segmentation output.
+
 **FR3 (Must).** The system shall detect when two or more relevant bones overlap in the image.
+
 **FR4 (Must).** When bones overlap, the system shall assign each pixel/region to the correct bone and shall not count overlapping regions twice or attribute them to the wrong bone.
+
 **FR5 (Must).** The system shall automatically generate a proposed area measurement for each identified bone before any human review.
+
 **FR6 (Must).** The system shall let the reviewer manually adjust the proposed bone boundary, and shall recompute the area from the corrected boundary.
+
 **FR7 (Should).** The system shall classify each relevant bone as fused or not fused, and shall record fusion status as a separate output field from the area measurement.
+
 **FR8 (Should).** When a bone is not fused, the system shall exclude the gap between the unfused parts from the area calculation.
+
 **FR9 (Should).** The system shall accept a batch of radiographs in one upload and process them sequentially without requiring re-upload per image.
+
 **FR10 (Should).** The system shall let the reviewer step through processed images one at a time, in sequence, without leaving the review screen.
+
 **FR11 (Must).** The system shall report each bone's area in mm, to 3 decimal places, using the scale reference present in that specific image (not a fixed pixel-to-mm ratio).
+
 **FR12 (Must).** The system shall export approved measurements to an Excel-compatible file.
+
 **FR13 (Should).** The system shall map each exported value to the correct predefined column in NRM's existing Excel template.
+
 **FR14 (Desirable).** The system shall add new measurements to an existing NRM Excel file without deleting or overwriting the data already in it.
 
 ### Non-functional requirements, written out

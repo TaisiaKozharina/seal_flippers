@@ -7,7 +7,9 @@ Statuses:\
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) | | | |
+| Alaric (Jianwei) | Reviewed meeting notes and the update specification | 2 | :white_check_mark: |
+| Alaric (Jianwei) | Try thresholding and morphological operations on dataset | 5 | :white_check_mark: |
+| Alaric (Jianwei) | Researched methods and existing solution of labeling | 3 | :white_check_mark: |
 | Zeyao Yan |Finding and researching some existing labeling solutions | 3.5 | :white_check_mark: |
 | Zihao Yang | | | |
 | Deborah |Analyzed  dataset folders sent by NRM and documented image counts, naming inconsistencies, and quality issues per folder, published to github | 7.5 | :white_check_mark: |
@@ -25,7 +27,7 @@ Statuses:\
 | ----------- | ----------- | ----------- | ----------- |
 | Alaric (Jianwei) | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |
 | Alaric (Jianwei) | Reviewed meeting notes and specification | 2 | :white_check_mark: |
-| Alaric (Jianwei) | Wrote up risk risk Assessment and draft Strategies, added it to draft_specification | 3 | :white_check_mark: |
+| Alaric (Jianwei) | Wrote up risk Assessment and draft Strategies, added it to draft_specification | 3 | :white_check_mark: |
 | Zeyao Yan | Preparations for initial meeting, contributing to list of questions for requirement clarification | 3 | :white_check_mark: |
 | Zeyao Yan | Reviewed meeting notes and specification | 2 | :white_check_mark: |
 | Zeyao Yan | Search for some existing solutions (models) | 3 | :white_check_mark: |

@@ -11,7 +11,9 @@ Statuses:\
 | Alaric (Jianwei) | Try thresholding and morphological operations on dataset | 5 | :white_check_mark: |
 | Alaric (Jianwei) | Researched methods and existing solution of labeling | 3 | :white_check_mark: |
 | Zeyao Yan |Finding and researching some existing labeling solutions | 3.5 | :white_check_mark: |
-| Zihao Yang | | | |
+| Zihao | Deploy the environment on the cluster to prepare for training. | 2 | :white_check_mark: |
+| Zihao | Try other similar datasets. | 5 | :white_check_mark: |
+| Zihao | There are similar cases on Kaggle; research the successful approaches. | 3 | :white_check_mark: |
 | Deborah |Analyzed  dataset folders sent by NRM and documented image counts, naming inconsistencies, and quality issues per folder, published to github | 7.5 | :white_check_mark: |
 | Deborah | Rewrote the requirement specification (user requirements, functional/non-functional requirements, priority table) | 3.5 | :white_check_mark: |
 | Deborah | Researched candidate segmentation methods (thresholding, transfer learning, MedSAM) | 2 | :white_check_mark: |

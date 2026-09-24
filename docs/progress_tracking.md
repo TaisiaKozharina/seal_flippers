@@ -11,7 +11,9 @@ Statuses:\
 | Alaric (Jianwei) | - | - | - |
 | Zeyao Yan | - | - | - |
 | Zihao | - | - | - |
-| Deborah | - | - | - |
+| Deborah |  Tested MedSAM for bone outlining | 3 |  :white_check_mark:  |
+| Deborah |  Set up Label Studio and labeled X-rays with NRM's bone names, to test other methods | 2 |  :white_check_mark:  |
+| Deborah |  Attended team meetings and NRM meetings  | 2 |  :white_check_mark:  |
 | Paul | Perparing Demo of alternativ for iPad correction | 1 | :white_check_mark: |
 | Paul | Meetings both internal and external | 2 | :white_check_mark: |
 | Paul | Project management and setting up next meeting with client | 2 | :white_check_mark: |

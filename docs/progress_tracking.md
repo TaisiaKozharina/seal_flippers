@@ -9,7 +9,7 @@ Statuses:\
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
 | Alaric (Jianwei) | - | - | - |
-| Zeyao Yan | - | - | - |
+| Zeyao Yan | Market Analysis | - | :red_circle: |
 | Zihao | - | - | - |
 | Deborah |  Tested MedSAM for bone outlining | 3 |  :white_check_mark:  |
 | Deborah |  Set up Label Studio and labeled X-rays with NRM's bone names, to test other methods | 2 |  :white_check_mark:  |

@@ -20,7 +20,9 @@ Statuses:\
 | Paul | Meetings both internal and external | 2 | :white_check_mark: |
 | Paul | Project management and setting up next meeting with client | 2 | :white_check_mark: |
 | Paul | Weekly report | 0.5 | :red_circle:|
-| Taisija | - | - | - |
+| Taisija | Dataset cleaning | 4 | :white_check_mark: |
+| Taisija | ImageJ functionality comparison | 2 | :white_check_mark: |
+| Taisija | Documentation | 1 | :white_check_mark: |
 
 ----------------------------------------------------
 

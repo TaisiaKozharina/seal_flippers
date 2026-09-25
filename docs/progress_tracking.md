@@ -8,7 +8,9 @@ Statuses:\
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) | - | - | - |
+| Alaric (Jianwei) | Team meeting and NRM meeting | 2 | :white_check_mark: |
+| Alaric (Jianwei) | Annotation attempt | 2 | :white_check_mark: |
+| Alaric (Jianwei) | Reviewed meeting notes | 1 | :white_check_mark: |
 | Zeyao Yan | Market Analysis | - | :red_circle: |
 | Zihao | - | - | - |
 | Deborah |  Tested MedSAM for bone outlining | 3 |  :white_check_mark:  |

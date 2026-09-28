@@ -4,6 +4,20 @@ Statuses:\
 :black_square_button: - Not started
 
 ----------------------------------------------------
+### Week 40
+
+| Name | Task | Hours Spent | Status |
+| ----------- | ----------- | ----------- | ----------- |
+| Alaric (Jianwei) |  | 2 | :white_check_mark: |
+| Zeyao Yan |  | - | :red_circle: |
+| Zihao | - | - | - |
+| Deborah |   | 3 |  :white_check_mark:  |
+| Paul | Workflow Design | 3.5 | :white_check_mark: |
+| Paul | UI Design | 4 | :white_check_mark: |
+| Taisija |  |  | :white_check_mark: |
+
+
+----------------------------------------------------
 ### Week 39
 
 | Name | Task | Hours Spent | Status |

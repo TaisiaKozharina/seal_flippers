@@ -8,13 +8,13 @@ Statuses:\
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) |  | 2 | :white_check_mark: |
-| Zeyao Yan |  | - | :red_circle: |
-| Zihao | - | - | - |
-| Deborah |   | 3 |  :white_check_mark:  |
+| Alaric (Jianwei) |  |  |  |
+| Zeyao Yan |  |  |  |
+| Zihao |  |  |  |
+| Deborah |   |  |  |
 | Paul | Workflow Design | 3.5 | :white_check_mark: |
 | Paul | UI Design | 4 | :white_check_mark: |
-| Taisija |  |  | :white_check_mark: |
+| Taisija |  |  |  |
 
 
 ----------------------------------------------------

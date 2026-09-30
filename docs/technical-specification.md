@@ -40,7 +40,7 @@ The tool has nine parts. Each one takes the output of the one before it. Parts 3
 
 This is a rough draft of the steps a user goes through: open the app, upload a batch of images, let the model run, check and fix the results, then export to Excel.
 
-![User interface draft](images/ui-draft.png)
+<img width="1344" height="1092" alt="Image" src="https://github.com/user-attachments/assets/17a5074d-9a40-41f4-885c-e98d218bfe36" />
 
 ## Deployment
 

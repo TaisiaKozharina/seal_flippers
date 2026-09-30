@@ -1,10 +1,10 @@
-# Technical Specification Draft – NRM Seal Flipper Tool
+# Technical Specification Draft; NRM Seal Flipper Tool
 
 ## System overview
 
 The tool runs as one pipeline, from upload to Excel. A user checks and fixes every result before it is exported.
 
-![System overview](images/system-overview.png)
+<img width="1344" height="650" alt="Image" src="https://github.com/user-attachments/assets/27162d3e-467a-485c-9fbb-35104ea6cfbe" />
 
 The top row runs on NRM's computer by itself. The bottom row is where the user comes in: when they fix an outline on the iPad, the area is worked out again.
 
@@ -23,6 +23,7 @@ The tool has nine parts. Each one takes the output of the one before it. Parts 3
 | 7 | Area measurement | Counts mask pixels and converts to mm². For an unfused bone: bone area + epiphysis area, so the gap is not counted | Masks + mm per pixel | Area in mm², 3 decimals |
 | 8 | Review and correct | Shows the X-ray next to the result on the iPad, so the user can fix outlines by drawing | Image + masks + numbers | Corrected masks |
 | 9 | Approve and export | Only approved results go into NRM's Excel template | Approved results | Excel file |
+
 
 ## Data and file formats
 

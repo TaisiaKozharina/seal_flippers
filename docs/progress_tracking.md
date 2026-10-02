@@ -16,6 +16,7 @@ Statuses:\
 | Zihao | | | |
 | Deborah | Wrote the technical specification draft, which covers components, data formats, deployment, validation, and tech stack, and posted it to GitHub | 5.5 | ✅ |
 | Deborah | Drew the system overview diagram and the user interface draft, and added them to the technical specification | 2.5 | ✅ |
+| Paul | Reviewing new specifications | 3 | ✅ |
 | Paul | Workflow Design | 3.5 | ✅ |
 | Paul | UI Design | 4 | ✅ |
 | Taisija | UI Design assistance | 1 | ✅ |

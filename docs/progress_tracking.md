@@ -18,7 +18,9 @@ Statuses:\
 | Deborah | Drew the system overview diagram and the user interface draft, and added them to the technical specification | 2.5 | ✅ |
 | Paul | Workflow Design | 3.5 | ✅ |
 | Paul | UI Design | 4 | ✅ |
-| Taisija | | | |
+| Taisija | UI Design assistance | 1 | ✅ |
+| Taisija | Project specification revision review | 3 | ✅ |
+| Taisija | Dataset cleaning & review of different preprocessing techniques for the pool of different segmentation methods | 6 | ✅ |
 
 
 ----------------------------------------------------

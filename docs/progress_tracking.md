@@ -10,7 +10,8 @@ Statuses:\
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) | | | |
+| Alaric (Jianwei) | Annotation setup and data preparation | 5 | ✅ |
+| Alaric (Jianwei) | Manual labeling | 15 | 🔴 |
 | Zeyao Yan | Market Analysis | 4 | 🔴|
 | Zihao | | | |
 | Deborah | Wrote the technical specification draft, which covers components, data formats, deployment, validation, and tech stack, and posted it to GitHub | 5.5 | ✅ |

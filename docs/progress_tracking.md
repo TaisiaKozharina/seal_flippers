@@ -11,7 +11,7 @@ Statuses:\
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
 | Alaric (Jianwei) | | | |
-| Zeyao Yan | | | |
+| Zeyao Yan | Market Analysis | 4 | 🔴|
 | Zihao | | | |
 | Deborah | Wrote the technical specification draft, which covers components, data formats, deployment, validation, and tech stack, and posted it to GitHub | 5.5 | ✅ |
 | Deborah | Drew the system overview diagram and the user interface draft, and added them to the technical specification | 2.5 | ✅ |

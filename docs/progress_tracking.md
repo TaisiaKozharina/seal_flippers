@@ -6,15 +6,18 @@ Statuses:\
 ----------------------------------------------------
 ### Week 40
 
+## Week 40
+
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) |  |  |  |
-| Zeyao Yan |  |  |  |
-| Zihao |  |  |  |
-| Deborah |   |  |  |
-| Paul | Workflow Design | 3.5 | :white_check_mark: |
-| Paul | UI Design | 4 | :white_check_mark: |
-| Taisija |  |  |  |
+| Alaric (Jianwei) | | | |
+| Zeyao Yan | | | |
+| Zihao | | | |
+| Deborah | Wrote the technical specification draft, which covers components, data formats, deployment, validation, and tech stack, and posted it to GitHub | 5.5 | ✅ |
+| Deborah | Drew the system overview diagram and the user interface draft, and added them to the technical specification | 2.5 | ✅ |
+| Paul | Workflow Design | 3.5 | ✅ |
+| Paul | UI Design | 4 | ✅ |
+| Taisija | | | |
 
 
 ----------------------------------------------------

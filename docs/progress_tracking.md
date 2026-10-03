@@ -13,7 +13,7 @@ Statuses:\
 | Alaric (Jianwei) | Annotation setup and data preparation | 5 | ✅ |
 | Alaric (Jianwei) | Manual labeling | 15 | 🔴 |
 | Zeyao Yan | Market Analysis | 4 | 🔴|
-| Zihao | | | |
+| Zihao | data pre-processing | 15 | ✅ |
 | Deborah | Wrote the technical specification draft, which covers components, data formats, deployment, validation, and tech stack, and posted it to GitHub | 5.5 | ✅ |
 | Deborah | Drew the system overview diagram and the user interface draft, and added them to the technical specification | 2.5 | ✅ |
 | Paul | Reviewing new specifications | 3 | ✅ |
@@ -33,7 +33,7 @@ Statuses:\
 | Alaric (Jianwei) | Annotation attempt | 2 | :white_check_mark: |
 | Alaric (Jianwei) | Reviewed meeting notes | 1 | :white_check_mark: |
 | Zeyao Yan | Market Analysis | - | :red_circle: |
-| Zihao | - | - | - |
+| Zihao | experimented with SAM3 and SAM2, and tested various open-source datasets | 15 | ✅ |
 | Deborah |  Tested MedSAM for bone outlining | 3 |  :white_check_mark:  |
 | Deborah |  Set up Label Studio and labeled X-rays with NRM's bone names, to test other methods | 2 |  :white_check_mark:  |
 | Deborah |  Attended team meetings and NRM meetings  | 2 |  :white_check_mark:  |

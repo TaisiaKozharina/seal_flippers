@@ -4,9 +4,20 @@ Statuses:\
 :black_square_button: - Not started
 
 ----------------------------------------------------
-### Week 40
+### Week 41
 
-## Week 40
+| Name | Task | Hours Spent | Status |
+| ----------- | ----------- | ----------- | ----------- |
+| Alaric (Jianwei) |  |  |  |
+| Zeyao Yan |  |  | |
+| Zihao |  |  |  |
+| Deborah |  |  |  |
+| Paul | Project management | 3 | ✅ |
+| Taisija |  |  |  |
+
+
+----------------------------------------------------
+### Week 40
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |

@@ -12,7 +12,7 @@ Statuses:\
 | Zeyao Yan |  |  | |
 | Zihao |  |  |  |
 | Deborah |  |  |  |
-| Paul | Project management | 3 | ✅ |
+| Paul | Project management | 6 | ✅ |
 | Taisija |  |  |  |
 
 

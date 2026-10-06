@@ -14,7 +14,7 @@ The tool has nine parts. Each one takes the output of the one before it. Parts 3
 
 | # | Part | What it does | In | Out | Meets requirement |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Batch upload | Loads many X-rays at once and gives each one a case ID in the same format | Image files | Image + case ID + side (left/right) | Upload many images at once |
+| 1 | Batch upload | Loads many X-rays at once and gives each one a case ID in the same format | Image files | Image + case ID + side  | Upload many images at once |
 | 2 | Scale detection | Finds the scale marker in the image and works out mm per pixel | Image | mm per pixel | Area uses each X-ray's own scale |
 | 3 | Bone segmentation | Draws the outline of each bone | Image | Mask per bone | Find the bones automatically |
 | 4 | Naming of bones | Labels bones as metacarpal, M1, M2 and drops the rest (radius, ulna, claws, navicular) | Masks | Named masks | Measure only metacarpal, M1, M2 |

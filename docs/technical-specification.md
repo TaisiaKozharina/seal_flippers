@@ -12,17 +12,17 @@ The top row runs on NRM's computer by itself. The bottom row is where the user c
 
 The tool has nine parts. Each one takes the output of the one before it. Parts 3 to 6 are the ML part; we have not picked the method yet.
 
-| # | Part | What it does | In | Out |
-| --- | --- | --- | --- | --- |
-| 1 | Batch upload | Loads many X-rays at once and gives each one a case ID in the same format | Image files | Image + case ID + side (left/right) |
-| 2 | Scale detection | Finds the scale marker in the image and works out mm per pixel | Image | mm per pixel |
-| 3 | Bone segmentation | Draws the outline of each bone | Image | Mask per bone |
-| 4 | Naming of bones | Labels bones as metacarpal, M1, M2 and drops the rest (radius, ulna, claws, navicular) | Masks | Named masks |
-| 5 | Overlap handling | Splits the area correctly where two bones cross | Named masks | Cleaned masks |
-| 6 | Fusion check | Marks each bone fused or not fused. A bone with a separate epiphysis (the unfused end piece) is not fused | Named masks | Fused yes/no per bone |
-| 7 | Area measurement | Counts mask pixels and converts to mm². For an unfused bone: bone area + epiphysis area, so the gap is not counted | Masks + mm per pixel | Area in mm², 3 decimals |
-| 8 | Review and correct | Shows the X-ray next to the result on the iPad, so the user can fix outlines by drawing | Image + masks + numbers | Corrected masks |
-| 9 | Approve and export | Only approved results go into NRM's Excel template | Approved results | Excel file |
+| # | Part | What it does | In | Out | Meets requirement |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Batch upload | Loads many X-rays at once and gives each one a case ID in the same format | Image files | Image + case ID + side (left/right) | Upload many images at once |
+| 2 | Scale detection | Finds the scale marker in the image and works out mm per pixel | Image | mm per pixel | Area uses each X-ray's own scale |
+| 3 | Bone segmentation | Draws the outline of each bone | Image | Mask per bone | Find the bones automatically |
+| 4 | Naming of bones | Labels bones as metacarpal, M1, M2 and drops the rest (radius, ulna, claws, navicular) | Masks | Named masks | Measure only metacarpal, M1, M2 |
+| 5 | Overlap handling | Splits the area correctly where two bones cross | Named masks | Cleaned masks | Overlap edges are not taken as bone edges |
+| 6 | Fusion check | Marks each bone fused or not fused. A bone with a separate epiphysis (the unfused end piece) is not fused | Named masks | Fused yes/no per bone | Fusion status per bone |
+| 7 | Area measurement | Counts mask pixels and converts to mm². For an unfused bone: bone area + epiphysis area, so the gap is not counted | Masks + mm per pixel | Area in mm², 3 decimals | Area in mm², 3 decimals, gap not counted |
+| 8 | Review and correct | Shows the X-ray next to the result on the iPad, so the user can fix outlines by drawing | Image + masks + numbers | Corrected masks | User can check and fix outlines |
+| 9 | Approve and export | Only approved results go into NRM's Excel template | Approved results | Excel file | Approve step, export to NRM's Excel |
 
 
 ## Data and file formats

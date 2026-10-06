@@ -63,7 +63,7 @@ Most of the stack is not agreed yet. This shows what the team has agreed and wha
 | Labeling | CVAT, COCO export | Agreed |
 | Code and docs | GitHub repo + GitHub project board | Agreed |
 | Programming language | To decide | Not agreed yet |
-| Deep learning library | To decide | Not agreed yet |
+| Deep learning library(building and training) | To decide | Not agreed yet |
 | Image processing library | To decide | Not agreed yet |
 | Excel export | To decide | Not agreed yet |
 | Where we train the model | To decide | Not agreed yet |

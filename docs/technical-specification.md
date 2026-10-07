@@ -31,7 +31,7 @@ The tool has nine parts. Each one takes the output of the one before it. Parts 3
 | --- | --- | --- |
 | X-ray images | Image files from NRM, around 165 counted in the first batch (final number not confirmed) | 6 folders: Ringed, Grey, Harbour seal, Harbour porpoise (2), Borås |
 | Case ID | One format after normalizing, e.g. species + ID + side | Needed so results match NRM's Excel rows |
-| Labels | Made in CVAT, exported as COCO (JSON) with polygon outlines | The file uses MC, P1, P2, P3, epiphysis, carpal, radius\_ulna, other\_bone. P1 and P2 need to be renamed to M1 and M2 to match NRM. Each outline also has flipper (1.1 or 1.2) and digit fields |
+| Labels | Made in CVAT, exported as COCO (JSON) with polygon outlines | The file uses MC, P1, P2, P3, epiphysis, carpal, radius_ulna, other_bone. P1 and P2 already match NRM's naming. In NRM's figure, M is the finger number (M1 to M5) and P is the bone on that finger (P1, P2), so "M2P1" means finger 2, bone P1. Each outline also has a flipper field (left, right or unknown) and a digit field (1 to 5), so the digit field must be filled in to get NRM's names.|
 | Model output | Mask image where each pixel value is a bone class | One mask per image |
 | iPad corrections | Corrected mask (PNG) sent back to the computer | Already works in the demo app |
 | Final results | Excel, in NRM's template columns | Area in mm² (3 decimals) + fused yes/no per bone |

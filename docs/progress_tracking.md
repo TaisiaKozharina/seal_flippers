@@ -8,7 +8,7 @@ Statuses:\
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) |  |  |  |
+| Alaric (Jianwei) | Manual labeling | 2 | 🔴 |
 | Zeyao Yan |  |  | |
 | Zihao |  |  |  |
 | Deborah |  |  |  |

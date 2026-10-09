@@ -9,7 +9,7 @@ Statuses:\
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
 | Alaric (Jianwei) | Manual labeling | 2 | 🔴 |
-| Zeyao Yan |  |  | |
+| Zeyao Yan | Market Analysis | 4 | 🔴 |
 | Zihao |  |  |  |
 | Deborah |  |  |  |
 | Paul | Project management | 6 | ✅ |

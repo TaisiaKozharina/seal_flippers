@@ -11,8 +11,8 @@ Meeting notes: NRM meeting 09.10.2026
 - We asked about the tiny bone that sits on its own and isn't attached to the other bones. NRM said it's a navicular bone and it should not be used in the measurements.
 - We asked about the top finger (finger 1), which has only MC and one long P1, with no P2. NRM said most flippers look like this, and it helps the seal grip. So finger 1 is labeled MC + P1 only.
 - We showed NRM an example labeled image, and they said it's labeled correctly. We can keep labeling the same way.
-image.....
 
+<img width="1592" height="1082" alt="Image" src="https://github.com/user-attachments/assets/e790c2a7-4100-4c85-930b-db7d6362682c" />
 *Before next meeting*:
 
 - NRM will send us a list of the computers the software will run on: operating system, processor, RAM, and graphics card.

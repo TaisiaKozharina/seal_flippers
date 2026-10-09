@@ -11,7 +11,8 @@ Statuses:\
 | Alaric (Jianwei) | Manual labeling | 2 | 🔴 |
 | Zeyao Yan | Market Analysis | 4 | 🔴 |
 | Zihao |  |  |  |
-| Deborah |  |  |  |
+| Deborah | Technical specification (revised) | 1 |  ✅ |
+| Deborah | Manual annotation and labeling | 2 |  🔴 |
 | Paul | Project management | 6 | ✅ |
 | Taisija | Project management | 3 | ✅ |
 | Taisija | Data preparation & Demo | 1 | ✅ |

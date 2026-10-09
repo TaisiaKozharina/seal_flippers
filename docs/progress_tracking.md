@@ -13,8 +13,10 @@ Statuses:\
 | Zihao |  |  |  |
 | Deborah |  |  |  |
 | Paul | Project management | 6 | ✅ |
-| Taisija |  |  |  |
-
+| Taisija | Project management | 3 | ✅ |
+| Taisija | Data preparation & Demo | 1 | ✅ |
+| Taisija | Specification (revised) review and finalization | 3 | ✅ |
+| Taisija | Organisational tasks | 1 | ✅ |
 
 ----------------------------------------------------
 ### Week 40

@@ -13,6 +13,7 @@ Meeting notes: NRM meeting 09.10.2026
 - We showed NRM an example labeled image, and they said it's labeled correctly. We can keep labeling the same way.
 
 <img width="1592" height="1082" alt="Image" src="https://github.com/user-attachments/assets/e790c2a7-4100-4c85-930b-db7d6362682c" />
+
 *Before next meeting*:
 
 - NRM will send us a list of the computers the software will run on: operating system, processor, RAM, and graphics card.

@@ -15,6 +15,8 @@ Statuses:\
 | Deborah | Technical specification (revised) | 1 |  ✅ |
 | Deborah | Manual annotation and labeling | 2 |  🔴 |
 | Paul | Project management | 6 | ✅ |
+| Paul | Updating Project Plan | 3 | ✅ |
+| Paul | Merging Market Analysis to Main Doc | 6 | ✅ |
 | Taisija | Project management | 3 | ✅ |
 | Taisija | Data preparation & Demo | 1 | ✅ |
 | Taisija | Specification (revised) review and finalization | 3 | ✅ |

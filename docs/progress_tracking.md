@@ -10,6 +10,7 @@ Statuses:\
 | ----------- | ----------- | ----------- | ----------- |
 | Alaric (Jianwei) | Manual labeling | 2 | 🔴 |
 | Zeyao Yan | Market Analysis | 4 | 🔴 |
+| Zeyao Yan | Manual annotation and labeling | - | :black_square_button: |
 | Zihao |  |  |  |
 | Deborah | Technical specification (revised) | 1 |  ✅ |
 | Deborah | Manual annotation and labeling | 2 |  🔴 |

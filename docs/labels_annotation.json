@@ -1,0 +1,376 @@
+[
+ {
+  "name": "MC",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   },
+   {
+    "name": "digit",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "name": "overlapping",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "fusion",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "unfused",
+     "partial",
+     "fused"
+    ]
+   }
+  ],
+  "color": "#d59d78"
+ },
+ {
+  "name": "P1",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   },
+   {
+    "name": "digit",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "name": "overlapping",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "fusion",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "unfused",
+     "partial",
+     "fused"
+    ]
+   }
+  ],
+  "color": "#20d603"
+ },
+ {
+  "name": "P2",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   },
+   {
+    "name": "digit",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "name": "overlapping",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "fusion",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "unfused",
+     "partial",
+     "fused"
+    ]
+   }
+  ],
+  "color": "#2a7dd1"
+ },
+ {
+  "name": "P3",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   },
+   {
+    "name": "digit",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "name": "overlapping",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "fusion",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "unfused",
+     "partial",
+     "fused"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "epiphysis",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   },
+   {
+    "name": "digit",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "name": "overlapping",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "carpal",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "radius_ulna",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "other_bone",
+  "type": "polygon",
+  "attributes": [
+   {
+    "name": "certain",
+    "mutable": false,
+    "input_type": "checkbox",
+    "default_value": "false",
+    "values": [
+     "false"
+    ]
+   },
+   {
+    "name": "flipper",
+    "mutable": false,
+    "input_type": "select",
+    "default_value": "unknown",
+    "values": [
+     "unknown",
+     "left",
+     "right"
+    ]
+   }
+  ]
+ }
+]

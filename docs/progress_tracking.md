@@ -4,6 +4,18 @@ Statuses:\
 :black_square_button: - Not started
 
 ----------------------------------------------------
+### Week 42
+
+| Name | Task | Hours Spent | Status |
+| ----------- | ----------- | ----------- | ----------- |
+| Alaric (Jianwei) | | | |
+| Zeyao Yan | | | |
+| Zihao | | | |
+| Deborah | Annotation and labelling in CVAT | 19 | 🔴 |
+| Deborah | Team meeting and NRM meeting | 2 | ✅ |
+| Paul | | | |
+| Taisija | | | |
+----------------------------------------------------
 ### Week 41
 
 | Name | Task | Hours Spent | Status |

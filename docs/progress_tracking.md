@@ -9,7 +9,7 @@ Statuses:\
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
 | Alaric (Jianwei) | | | |
-| Zeyao Yan | | | |
+| Zeyao Yan | Manual annotation and labeling | 12 | 🔴 |
 | Zihao | | | |
 | Deborah | Annotation and labelling in CVAT | 19 | 🔴 |
 | Deborah | Team meeting and NRM meeting | 2 | ✅ |

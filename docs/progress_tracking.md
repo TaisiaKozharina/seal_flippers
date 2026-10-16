@@ -14,8 +14,10 @@ Statuses:\
 | Deborah | Annotation and labelling in CVAT | 19 | 🔴 |
 | Deborah | Team meeting and NRM meeting | 2 | ✅ |
 | Paul | | | |
-| Taisija | | | |
-----------------------------------------------------
+| Taisija | Finalization of preprocessing pipeline, experiments with augmentation | 6 | ✅ |
+| Taisija | Project management | 4 | ✅ |
+| Taisija | Reviewing frontend tech stack | 4 | ✅ |
+---------------------------------------------------
 ### Week 41
 
 | Name | Task | Hours Spent | Status |

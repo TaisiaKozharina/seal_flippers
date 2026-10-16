@@ -8,8 +8,10 @@ Statuses:\
 
 | Name | Task | Hours Spent | Status |
 | ----------- | ----------- | ----------- | ----------- |
-| Alaric (Jianwei) | | | |
-| Zeyao Yan | Manual annotation and labeling | 12 | 🔴 |
+| Alaric (Jianwei) | Team meeting | 2 | ✅ |
+| Alaric (Jianwei) | wrote manual labeling guide and standard | 2 | ✅ |
+| Alaric (Jianwei) | manual annotation | 18 | 🔴 |
+|  Zeyao Yan | Manual annotation and labeling | 12 | 🔴 |
 | Zihao | | | |
 | Deborah | Annotation and labelling in CVAT | 19 | 🔴 |
 | Deborah | Team meeting and NRM meeting | 2 | ✅ |

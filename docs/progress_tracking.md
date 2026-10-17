@@ -15,7 +15,8 @@ Statuses:\
 | Zihao | | | |
 | Deborah | Annotation and labelling in CVAT | 19 | 🔴 |
 | Deborah | Team meeting and NRM meeting | 2 | ✅ |
-| Paul | | | |
+| Paul | Project management | 7 | ✅ |
+| Paul | Application interactions and workflows| 5 | ✅ |
 | Taisija | Finalization of preprocessing pipeline, experiments with augmentation | 6 | ✅ |
 | Taisija | Project management | 4 | ✅ |
 | Taisija | Reviewing frontend tech stack | 4 | ✅ |
